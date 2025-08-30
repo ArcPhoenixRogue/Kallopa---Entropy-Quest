@@ -1,3 +1,3 @@
-# Kallopa---Entropy-Quest
+# Kallopa - Enderblight-Quest
 
-A challenge pack - The road home is far, and entropy is everpresent, consuming all.
+A challenge pack - The road home is far; The end everlurking, consuming all.
