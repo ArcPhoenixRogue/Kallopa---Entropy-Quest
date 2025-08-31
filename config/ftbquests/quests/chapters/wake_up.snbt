@@ -1,0 +1,142 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "wake_up"
+	group: ""
+	id: "313B3E7CDFB546A7"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Greetings, &cEntity206&f! If you are reading this message, then the gracious will of &aThe Overseer&r has classified you as \"Capable\" and \"Disposable\" enough to be granted the mission of preparation. Shall we begin?"]
+			icon: "minecraft:diamond"
+			id: "74D72899B4A06F23"
+			rewards: [{
+				count: 3
+				id: "2FFFBCD508156790"
+				item: "minecraft:golden_carrot"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Why, hello there"
+			tasks: [{
+				id: "5E2C4A68D78EBEB8"
+				title: "Glorious Purpose"
+				type: "checkmark"
+			}]
+			title: "Wake Up"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["74D72899B4A06F23"]
+			description: [
+				"&aThe Overseer&f is the Master behind the magnificence of coils, and the maintainer of &5Kallopa&r, a distant world where magic and technology have brought much abundance. "
+				""
+				"As of the last ages, &3Manifestations of Enderblight&r have since consumed much of said plenty, so a plot was set in motion."
+			]
+			icon: "forbidden_arcanus:dark_nether_star"
+			id: "1B7157452BE4D8AE"
+			rewards: [{
+				id: "192CBE26F6B46E7C"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_swiftness"
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Dream me at dark, won't you?"
+			tasks: [{
+				id: "4EC572B797C00BCB"
+				title: "Greater Purpose"
+				type: "checkmark"
+			}]
+			title: "A Distant Home"
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1B7157452BE4D8AE"]
+			description: [
+				"&3Enderblight&r is an ancient evil, a natural decayed state, one upon which all the universe shall one day fall to, not unlike the distant star of &5Kallopa&r. Countless empires have been consumed before."
+				""
+				"As such, your mission is to prepare a new home, worthy of accomodating all the neccessary for the arrival of &aThe Overseer&f, and a haven for your people."
+			]
+			icon: "botania:holy_cloak"
+			id: "329E33536FED7DE7"
+			rewards: [{
+				id: "35DCF6E38D00645D"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:regeneration"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Conquest of Entropy"
+			tasks: [{
+				id: "7F80BB8AFAFF798E"
+				title: "Greater Purpose"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["329E33536FED7DE7"]
+			description: [
+				"Certain tools should have been sent alongside your vehicle. Some basic gear and utilities should help you gather yourself and the basics; however, you'll have to do everything else yourself."
+				""
+				"While plenty of knowledge has been granted, not all is known. Several of your technomagical feats will need &bresearch&r, &4resources&r, and &2infrastructure&r, that must be developed with your own hands. ez!"
+			]
+			icon: "thermal:steel_gear"
+			id: "61AC0D5C334A87EC"
+			rewards: [{
+				id: "1584582C7C0495F4"
+				item: "minecraft:book"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "It's about the journey"
+			tasks: [{
+				id: "0BC11380F4AA08E8"
+				title: "The What"
+				type: "checkmark"
+			}]
+			title: "Overseer's Path"
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["61AC0D5C334A87EC"]
+			description: [
+				""
+				"The final step of your journey will have you construct a &bKalloptrionic Starcaller&r, to establish a link to the &5Kallopa Homeworld&f, so reinforcements can be sent. Until then, a long path patiently awaits. May your coils shine!"
+			]
+			icon: "majruszsdifficulty:recall_potion"
+			id: "21A4F8DF178BC217"
+			rewards: [{
+				id: "390780164DCBE254"
+				item: "thermal:iron_gear"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "One day... We'll meet again..."
+			tasks: [{
+				id: "7BEF97A0ACC14106"
+				title: "Longing Call"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -6.0d
+		}
+	]
+	title: "Wake Up"
+}

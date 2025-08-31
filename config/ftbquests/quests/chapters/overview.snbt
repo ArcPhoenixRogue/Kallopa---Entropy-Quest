@@ -1,0 +1,45 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "overview"
+	group: "13898E7F9A4A7B69"
+	id: "31E1CFE3DEBA366C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["21A4F8DF178BC217"]
+			id: "0C45B9DDBBCA1297"
+			shape: "hexagon"
+			subtitle: "Episode 1"
+			tasks: [{
+				id: "584FF3545FCA8D59"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "First Age"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C45B9DDBBCA1297"]
+			id: "7D4913B16D4765E4"
+			shape: "hexagon"
+			tasks: [{
+				id: "68F0C1551F61EA23"
+				item: "ae2:logic_processor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+	]
+	title: "Overview"
+}

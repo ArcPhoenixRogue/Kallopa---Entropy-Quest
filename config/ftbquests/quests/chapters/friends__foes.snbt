@@ -1,0 +1,95 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "friends__foes"
+	group: "1D208C3086256E4C"
+	id: "3AA434EC524FE928"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"You're on your own, but you're not the first. Preliminary investigations have provided data on other factions you may encounter in your travels."
+				""
+				"Perhaps, comsething of use can be learned from them?"
+			]
+			icon: "minecraft:light_blue_stained_glass_pane"
+			id: "40FF28A6FAB6A7A1"
+			shape: "diamond"
+			subtitle: "At the other side of the universe..."
+			tasks: [{
+				id: "13E245DA4523CB07"
+				title: "Mirror of abstraction"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40FF28A6FAB6A7A1"]
+			id: "7934F63769C88495"
+			shape: "hexagon"
+			tasks: [{
+				id: "74922E2D0D46979E"
+				item: "botania:blue_shiny_flower"
+				type: "item"
+			}]
+			title: "Apothecary Apologists"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["40FF28A6FAB6A7A1"]
+			id: "381FF90ED6C80B3D"
+			shape: "hexagon"
+			tasks: [{
+				id: "19644267D11A8546"
+				item: "thermal:iron_plate"
+				type: "item"
+			}]
+			title: "Ancient Golems"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["40FF28A6FAB6A7A1"]
+			id: "13D159652A78FA5A"
+			shape: "hexagon"
+			tasks: [{
+				id: "708C661DBDEA1907"
+				item: "evilcraft:blood_infusion_core"
+				type: "item"
+			}]
+			title: "Blood Mages"
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["40FF28A6FAB6A7A1"]
+			id: "16D1EA7DF67F675A"
+			shape: "hexagon"
+			tasks: [{
+				id: "52269202CD4A7E8B"
+				item: "enderzoology:ender_fragment"
+				type: "item"
+			}]
+			title: "Enderblighted"
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["40FF28A6FAB6A7A1"]
+			id: "039BB8B1E0CA3E0A"
+			shape: "hexagon"
+			tasks: [{
+				id: "725D34DE976E174E"
+				item: "malum:arcane_spirit"
+				type: "item"
+			}]
+			title: "Soulcaller Salvo"
+			x: 1.5d
+			y: 2.5d
+		}
+	]
+	title: "Friends and Foes"
+}

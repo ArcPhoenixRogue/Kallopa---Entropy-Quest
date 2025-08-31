@@ -1,0 +1,80 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "notion_of_motion"
+	group: "13898E7F9A4A7B69"
+	id: "2199206B83350FD5"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0C45B9DDBBCA1297"]
+			description: [
+				"The planet you inhabit &oshould&r have all you need. After gathering the basics, establishing, base, etc., your journey may start."
+				""
+				"The first goal is the coil and casing scheme."
+			]
+			id: "12B578AA1E395D3B"
+			rewards: [{
+				count: 128
+				id: "0A0F374A57232D71"
+				item: "minecraft:stone_bricks"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Home"
+			tasks: [
+				{
+					id: "1FB9412FE9D307BD"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+				{
+					id: "3C055AD495E28D27"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+				{
+					id: "67188E521EEB0D20"
+					item: "minecraft:chest"
+					type: "item"
+				}
+			]
+			title: "Age of hand"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12B578AA1E395D3B"]
+			description: [
+				"Metalworking is one of the most base technologies. Unfortunately, refineries are complex, so you'll need to find a way of &cblasting&r ores with current tools."
+				""
+				"Perhaps, those &acrawling creepers&r could be of use?"
+			]
+			id: "0FD70BC3122487B0"
+			shape: "diamond"
+			subtitle: "Malleable material"
+			tasks: [{
+				id: "367A21116BD9A062"
+				item: "thermal:tin_ingot"
+				type: "item"
+			}]
+			title: "Metallurgy"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "14C854069FE8413B"
+			subtitle: "First of countless"
+			tasks: [{
+				id: "7FCCE789128D0718"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			title: "Techno-Template"
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+	title: "Notion of Motion"
+}

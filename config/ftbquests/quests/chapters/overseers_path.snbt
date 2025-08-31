@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "overseers_path"
+	group: "1D208C3086256E4C"
+	id: "161AC53FF1F7A470"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "7D863A1ACE877F60"
+		tasks: [{
+			id: "61B830212A03C624"
+			title: "Awakening"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Overseer's Path"
+}

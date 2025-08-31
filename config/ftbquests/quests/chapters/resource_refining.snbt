@@ -1,0 +1,74 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "resource_refining"
+	group: "1D208C3086256E4C"
+	id: "0F6785A54876703E"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["General overview of the different paths of forging."]
+			id: "0CA336D863BED69B"
+			subtitle: "How to get more ingot per ingot"
+			tasks: [{
+				id: "3C3E95C4DF4A25C3"
+				title: "Metallurgy"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0CA336D863BED69B"]
+			id: "2ED833A1B0F8B9D0"
+			subtitle: "Extracted from below"
+			tags: ["raw_materials"]
+			tasks: [{
+				id: "282E383B8D250C4D"
+				item: "thermal:raw_tin"
+				type: "item"
+			}]
+			title: "Raw ore"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2ED833A1B0F8B9D0"]
+			id: "38EF6D020CA5B794"
+			tasks: [{
+				id: "2D33041BB5C30615"
+				item: "create:crushed_raw_tin"
+				type: "item"
+			}]
+			title: "Crushed Ore"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["38EF6D020CA5B794"]
+			id: "51764451E977210F"
+			tasks: [{
+				id: "1EDB53EAE36122DC"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			title: "Smelting"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["51764451E977210F"]
+			id: "7DE0B4B6FF76DEB6"
+			tasks: [{
+				id: "4FDA1D764AC26A47"
+				item: "thermal:tin_ingot"
+				type: "item"
+			}]
+			title: "Casting"
+			x: 0.0d
+			y: 2.5d
+		}
+	]
+	title: "Resource refining"
+}

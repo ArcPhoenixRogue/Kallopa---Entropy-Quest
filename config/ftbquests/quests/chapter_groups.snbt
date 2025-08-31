@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "13898E7F9A4A7B69", title: "Overseer's Path" }
+		{ id: "1D208C3086256E4C", title: "Inner Workings" }
+		{ id: "3A5738D535D0340E", title: "Along the way..." }
+	]
+}
