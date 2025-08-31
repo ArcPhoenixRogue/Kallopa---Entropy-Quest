@@ -144,7 +144,7 @@
       "is_enabled": true,
       "required_game_stage": "normal",
       "radius_multiplier": 1.2599,
-      "fire_chance": 0.20,
+      "fire_chance": 0.2,
       "is_scaled_by_crd": true
     },
     "double_loot": {
@@ -304,24 +304,24 @@
     "mobs_apply_effects": [
       {
         "required_game_stage": "expert",
-        "chance": 0.10,
+        "chance": 0.2,
         "is_scaled_by_crd": true,
         "entity_type": "minecraft:spider",
         "effect": {
           "id": "minecraft:poison",
           "amplifier": 0,
-          "duration": 7.0
+          "duration": 8.0
         }
       },
       {
         "required_game_stage": "expert",
-        "chance": 0.2,
+        "chance": 0.5,
         "is_scaled_by_crd": true,
         "entity_type": "minecraft:slime",
         "effect": {
           "id": "cofh_core:slimed",
           "amplifier": 0,
-          "duration": 7.0
+          "duration": 10.0
         }
       },
       {
@@ -364,7 +364,7 @@
     "pillager_with_fireworks": {
       "is_enabled": true,
       "required_game_stage": "master",
-      "chance": 0.10,
+      "chance": 0.1,
       "is_scaled_by_crd": true,
       "crossbow_multishot_chance": 0.25,
       "firework_drop_chance": 0.25,
